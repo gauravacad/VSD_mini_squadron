@@ -1,4 +1,23 @@
-# VSD_mini_squadron
+# Dear students You can use VSCODE or Arduino to Run the MINI board 
+### VSDSquadron Mini is a compact RISC-V based development board built around the CH32V003 microcontroller, used for embedded C programming, GPIO control, UART communication, and hardware development.
+
+<img width="940" height="1138" alt="image" src="https://github.com/user-attachments/assets/10a4a554-0cc5-4cc0-ae5b-66ffebd6b4f9" />
+
+### Pin configuration : VSDSquadron Mini Pin Diagram 
+
+<img width="940" height="613" alt="image" src="https://github.com/user-attachments/assets/f7dfc09b-0afb-43c5-b66b-d3d9af175489" />
+
+
+### tabular Form 
+
+<img width="879" height="934" alt="image" src="https://github.com/user-attachments/assets/033b79a2-da32-4f32-9eea-8c0ab845d16e" />
+
+### Mostly used 
+
+<img width="326" height="517" alt="image" src="https://github.com/user-attachments/assets/4116c47c-a0ff-4c2b-ad44-15ddcd376964" />
+
+
+# First Method for VSD_mini_squadron With Arduino on Windows 
 Installtion for Windows 
 
 # Download and install Arduino IDE
@@ -69,6 +88,10 @@ void loop() {
 
 ### You will see the led blinking on your board. 
 More experiments :- https://www.vlsisystemdesign.com/vsdsquadronmini/
+
+
+
+# Now second Method with Platformio on VScode either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows 
 
 
 # Credits to Mr. Kunal Ghosh Sir !!
