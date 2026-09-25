@@ -111,6 +111,58 @@ void loop() {
 ## Now second Method: with Platformio on VScode 
 - Vscode can be either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows
 - The Pdf is attached in the folder to make the installtion easy and simple in the same link.
+### Steps in Nutshell given Link 
+```
+https://www.vlsisystemdesign.com/docs/vsdsquadronminidatasheet/installation-and-settings/
+```
+<img width="1332" height="414" alt="image" src="https://github.com/user-attachments/assets/dc7afe20-3e6a-4ad2-8eba-1cf8873085c9" />
+
+### Install VSCode
+- Download and install VSCode from https://code.visualstudio.com
+
+### Install PlatformIO
+
+<img width="458" height="329" alt="image" src="https://github.com/user-attachments/assets/b0bcc562-9933-411e-a80c-d1b8ba1b251e" />
+
+- Open the ”Extensions” sidebar in VSCode, as shown in Figure.
+- Search for ”PlatformIO” and click ”install”, as shown in Figure.
+
+### Install CH32V Platform
+- Expand the PlatformIO sidebar (ant icon) and click ”PIO Home” as shown in Figure below.
+
+<img width="679" height="1024" alt="image" src="https://github.com/user-attachments/assets/8499b9b3-498e-4d33-949c-e171219d0c31" />
+
+
+- In the PIO Home window, click on the ”Platforms” sidebar and choose “Advanced Installation” as shown in Figure.
+
+
+<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/50c99bf4-94e2-44e5-afa4-6fbf3e31fb87" />
+
+
+- Enter the following repository URL when prompted and press ”Install,” as shown in Figure below: 'https://github.com/vsdip/vsdsquadron pio'
+  
+<img width="1024" height="807" alt="image" src="https://github.com/user-attachments/assets/24b8bbc3-b0e5-40f4-bee9-237e3a643b59" />
+
+  
+
+### Uploading blink example
+- Click on ”Platforms” 
+- Click on ”VSDSquadron”
+
+  <img width="1024" height="595" alt="image" src="https://github.com/user-attachments/assets/8612f64d-8c63-4351-aa35-61fdd4a32c10" />
+
+
+- Click on ”Examples” as shown in Figure
+
+<img width="1024" height="604" alt="image" src="https://github.com/user-attachments/assets/7b2f1033-88ba-4879-ab3b-a62332ea412e" />
+
+
+- Click on ”Import” as shown in Figure
+- You should see ”vsdsquadronmini” under ”Project Tasks” as shown in Figure
+- Click on ”Build” and ”Upload” button as shown in Figure
+
+<img width="1024" height="442" alt="image" src="https://github.com/user-attachments/assets/00a33bf7-7a84-4788-a878-d3cfd75619f4" />
+
 
 
 # Credits to Mr. Kunal Ghosh Sir !!
