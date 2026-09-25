@@ -34,7 +34,10 @@ Installtion for Windows
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f22e9945-0aeb-4261-bb69-a6b6f8b5302c" />
 
 
-### Step 2 
+### Step 2  Write the Code for Blink LED
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/14887c01-1526-4bd8-9391-0d5ce4df0dcf" />
+
+
 ```
 void setup() {
     pinMode(PD6, OUTPUT);
