@@ -17,6 +17,13 @@
 ### Mostly used 
 
 
+<img width="326" height="517" alt="image" src="https://github.com/user-attachments/assets/3c6cdcd8-7fbc-45b1-88ba-222c156eda87" />
+
+
+### you will the device when connected 
+
+<img width="463" height="595" alt="image" src="https://github.com/user-attachments/assets/7bb7765a-26d1-451a-8447-9a478d14dbc6" />
+
 
 
 # First Method for VSD_mini_squadron With Arduino on Windows 
