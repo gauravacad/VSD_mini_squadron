@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/14887c01-1526-4bd8-9391-0d5ce4df0dcf" /># VSD_mini_squadron
+# VSD_mini_squadron
 Installtion for Windows 
 
 # Download and install Arduino IDE
