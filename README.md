@@ -109,7 +109,8 @@ void loop() {
 
 
 ## Now second Method: with Platformio on VScode 
-- Vscode can be either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows 
+- Vscode can be either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows
+- The Pdf is attached in the folder to make the installtion easy and simple in the same link.
 
 
 # Credits to Mr. Kunal Ghosh Sir !!
