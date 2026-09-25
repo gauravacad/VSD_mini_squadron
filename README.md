@@ -19,7 +19,7 @@
 <img width="326" height="517" alt="image" src="https://github.com/user-attachments/assets/3c6cdcd8-7fbc-45b1-88ba-222c156eda87" />
 
 
-### You will See device when connected if not then you need to install the driven from the '[link https://zadig.akeo.ie/](https://github.com/Community-PIO-CH32V/wchlink-driver-windows)' (**Here the actual board must be physically required**)
+### You will See device when connected if not then you need to install the driven from the '[link](https://github.com/Community-PIO-CH32V/wchlink-driver-windows)' (**Here the actual board must be physically required**)
 
 ```
 https://github.com/Community-PIO-CH32V/wchlink-driver-windows
