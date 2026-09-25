@@ -13,9 +13,6 @@
 <img width="879" height="934" alt="image" src="https://github.com/user-attachments/assets/ce850c18-5c19-47f5-8c25-a4b5e13bdff6" />
 
 
-
-
-
 ### Mostly used 
 
 
@@ -103,7 +100,11 @@ void loop() {
 <img width="865" height="483" alt="image" src="https://github.com/user-attachments/assets/e31a0f60-7b02-4675-b1f3-cae1aac15850" />
 
 ### You will see the led blinking on your board. 
-More experiments :- https://www.vlsisystemdesign.com/vsdsquadronmini/
+
+<img width="727" height="360" alt="image" src="https://github.com/user-attachments/assets/d6181996-dbdf-440c-9068-62df832392bd" />
+
+
+- More experiments :- https://www.vlsisystemdesign.com/vsdsquadronmini/
 
 
 
