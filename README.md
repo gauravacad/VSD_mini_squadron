@@ -1,7 +1,7 @@
 # Dear students You can use VSCODE or Arduino to Run the MINI board 
 ### VSDSquadron Mini is a compact RISC-V based development board built around the CH32V003 microcontroller, used for embedded C programming, GPIO control, UART communication, and hardware development.
 
-<img width="940" height="1138" alt="image" src="https://github.com/user-attachments/assets/10a4a554-0cc5-4cc0-ae5b-66ffebd6b4f9" />
+<img width="710" height="460" alt="image" src="https://github.com/user-attachments/assets/26eb6574-3482-4a48-a641-30aeb8a0e6d0" />
 
 ### Pin configuration : VSDSquadron Mini Pin Diagram 
 
