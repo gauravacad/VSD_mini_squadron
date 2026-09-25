@@ -10,7 +10,8 @@
 
 ### tabular Form 
 
-<img width="879" height="934" alt="image" src="https://github.com/user-attachments/assets/033b79a2-da32-4f32-9eea-8c0ab845d16e" />
+<img width="879" height="934" alt="image" src="https://github.com/user-attachments/assets/997051c1-d8d1-4146-885e-7fc5f03e52ec" />
+
 
 ### Mostly used 
 
