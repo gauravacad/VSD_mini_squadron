@@ -107,7 +107,8 @@ More experiments :- https://www.vlsisystemdesign.com/vsdsquadronmini/
 
 
 
-# Now second Method with Platformio on VScode either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows 
+## Now second Method: with Platformio on VScode 
+- Vscode can be either on Linux (it can be standalone Linux ubuntu or Using Oracle VirtualBox) or Standalone Windows 
 
 
 # Credits to Mr. Kunal Ghosh Sir !!
