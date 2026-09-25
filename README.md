@@ -8,6 +8,12 @@ Follow the instructions in the installation guide.
 When completing the setup, leave Run Arduino IDE ticked to launch the application, or launch it later from the Start Menu.
 
 
-# access the borad CH32V003F4U6 RISC-V MCU 
-<img width="478" height="81" alt="image" src="https://github.com/user-attachments/assets/3222dfbf-12f8-4c21-a7a5-2cd2252e03ac" />
+# Access the borad CH32V003F4U6 RISC-V MCU 
+Need to Install in Arduino 'File -> Prefrences' as shown below
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1aa1c85e-f081-4fc8-ba1d-6256bcb4f0d4" />
+
+Now, add the link 'https://github.com/openwch/board_manager_files/raw/main/package_ch32v_index.json'
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7ae38e1-f586-42f4-9986-23210710ef69" />
 
