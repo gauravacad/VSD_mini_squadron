@@ -35,8 +35,6 @@ Installtion for Windows
 
 
 ### Step 2  Write the Code for Blink LED
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/14887c01-1526-4bd8-9391-0d5ce4df0dcf" />
-
 
 ```
 void setup() {
@@ -76,7 +74,7 @@ More experiments :- https://www.vlsisystemdesign.com/vsdsquadronmini/
 # Credits to Mr. Kunal Ghosh Sir !!
 <img width="639" height="304" alt="image" src="https://github.com/user-attachments/assets/c5e0cd14-8480-4241-ac75-7e26c3240cd5" />
 
-
+# Thank you !!
 
 
 
