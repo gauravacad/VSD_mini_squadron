@@ -10,7 +10,9 @@
 
 ### tabular Form 
 
-<img width="326" height="517" alt="image" src="https://github.com/user-attachments/assets/4116c47c-a0ff-4c2b-ad44-15ddcd376964" />
+<img width="879" height="934" alt="image" src="https://github.com/user-attachments/assets/ce850c18-5c19-47f5-8c25-a4b5e13bdff6" />
+
+
 
 
 
