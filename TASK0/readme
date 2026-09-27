@@ -1,0 +1,18 @@
+# Sum of 10 numbers
+- Assembly FIRST with minimum commands we know
+- try assembler at [link] "https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/#"
+```
+    addi t0, zero, 1       # i = 1
+    addi t1, zero, 0       # sum = 0
+    addi t2, zero, 10      # limit = 10
+
+loop:
+    add  t1, t1, t0        # sum = sum + i
+    addi t0, t0, 1         # i = i + 1
+    bge  t2, t0, loop      # if 10 >= i, repeat
+
+    # t1 = 5
+```
+
+
+
