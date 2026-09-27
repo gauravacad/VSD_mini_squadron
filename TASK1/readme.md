@@ -41,7 +41,7 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
 ```
 ```
 - or 32 bits
-riscv64-unknown-elf-gcc -O0 -mabi=ilp32 -march=rv32i -o lab_1.o lab_1.c
+riscv64-unknown-elf-gcc -O0 -mabi=ilp32 -march=rv32i -o sum.o sum.c
 ```
 
 - As shown below
