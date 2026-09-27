@@ -56,6 +56,10 @@ int main()
 }
 ```
 ### Deassembly 
+- command we use is
+```
+riscv64-unknown-elf-objdump -d -M no-aliases sum.o | less
+```
 <img width="753" height="431" alt="image" src="https://github.com/user-attachments/assets/66c018b7-d832-4339-9fa9-9dc959624cc8" />
 
 
