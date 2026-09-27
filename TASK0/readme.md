@@ -14,6 +14,7 @@ loop:
 
     # t1 = 5
 ```
+<img width="1048" height="622" alt="image" src="https://github.com/user-attachments/assets/c632b8d7-0597-4b20-8eb1-4ab7e0746cf1" />
 
 ### RISC-V Assembly: Sum of 1 to 10
 
