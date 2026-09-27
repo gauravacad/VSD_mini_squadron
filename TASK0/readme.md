@@ -14,6 +14,7 @@ loop:
 
     # t1 = 5
 ```
+
 ### RISC-V Assembly: Sum of 1 to 10
 
 | Assembly           | Category   | Meaning                  |
