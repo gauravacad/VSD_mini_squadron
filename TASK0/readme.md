@@ -29,4 +29,33 @@ loop:
 
 **Result:** `sum = 55`
 
+### C program with inline RISC-V assembly
+```
+#include <stdio.h>
+int main()
+{
+    int sum = 0;
+    asm volatile (
+        "addi t0, zero, 1\n\t"     // i = 1
+        "addi t1, zero, 0\n\t"     // sum = 0
+        "addi t2, zero, 10\n\t"    // limit = 10
+
+        "loop:\n\t"
+        "add  t1, t1, t0\n\t"      // sum = sum + i
+        "addi t0, t0, 1\n\t"       // i = i + 1
+        "bge  t2, t0, loop\n\t"    // if 10 >= i, repeat
+
+        :
+        :
+        : "t0", "t1", "t2", "memory"
+    );
+
+    printf("sum = 55\n");
+
+    return 0;
+}
+```
+### Deassembly 
+<img width="753" height="431" alt="image" src="https://github.com/user-attachments/assets/66c018b7-d832-4339-9fa9-9dc959624cc8" />
+
 
