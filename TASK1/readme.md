@@ -1,7 +1,7 @@
 
 # We are writing our first program to sum the first 10 numbers 
 
-### code part you can copy 
+### code part you can copy sum.c file
 ```
 #include <stdio.h>
 int main(){
@@ -37,8 +37,13 @@ int main(){
 
 ### Steps to Compile the code using RISC-V toolchain
 ```
-riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
 ```
+```
+- or 32 bits
+riscv64-unknown-elf-gcc -O0 -mabi=ilp32 -march=rv32i -o lab_1.o lab_1.c
+```
+
 - As shown below
 <img width="1113" height="98" alt="image" src="https://github.com/user-attachments/assets/1d91a221-a1d3-4517-b48c-291c10f6b9d3" />
 Figure shows how to run the above command on terminal
@@ -51,7 +56,40 @@ Figure shows how to run the above command on terminal
 
 <img width="546" height="70" alt="image" src="https://github.com/user-attachments/assets/ea43c8d4-8c5b-49ad-985f-d160d3ce1755" />
 
-### Steps to check the assembly and understand the code.
+### Steps to check the assembly and understand the RISCV code.
+- Now open a new terminal & use the command to see the disassembled asembly code
+```
+riscv64-unknown-elf-objdump -d sum.o
+```
+- You will observe a very long disassembled code seems very tough to decode what we wrote.
+- So we will try with Pipe '| less' command
+
+```
+riscv64-unknown-elf-objdump -d sum.o | less
+```
+- You will see a ":" sign where we can write 
+
+<img width="921" height="212" alt="image" src="https://github.com/user-attachments/assets/bfbd52bd-830c-4357-afed-c360f3ffe9ff" />
+
+- Now type '\main' and press letter "n" As shown in figure below
+
+<img width="1115" height="749" alt="image" src="https://github.com/user-attachments/assets/c53fee75-3e0f-4a5f-8f92-c89f19e5c430" />
+
+- You will press "n" twice you will get main function as shown in figure below
+
+<img width="806" height="747" alt="image" src="https://github.com/user-attachments/assets/a301c9c9-7ac3-43df-b0d5-7e64d140ed2d" />
+
+## Count the Number of Instructions in Main program
+- While subtracting use HEX number system and then divide by 4 as Byte addressing.
+- You will get total instructions around 26
+
+<img width="763" height="639" alt="image" src="https://github.com/user-attachments/assets/fdabc2c7-7c52-4ed1-a210-2f56cfa4486c" />
+
+
+
+
+
+
 
 
 
