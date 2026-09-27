@@ -1,6 +1,7 @@
 # Sum of 10 numbers
 - Assembly FIRST with minimum commands we know
 - try assembler at [link] "https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/#"
+
 ```
     addi t0, zero, 1       # i = 1
     addi t1, zero, 0       # sum = 0
@@ -13,6 +14,17 @@ loop:
 
     # t1 = 5
 ```
+### RISC-V Assembly: Sum of 1 to 10
 
+| Assembly           | Category   | Meaning                  |
+|--------------------|------------|--------------------------|
+| `ADDI t0, zero, 1` | Arithmetic | `i = 1`                  |
+| `ADDI t1, zero, 0` | Arithmetic | `sum = 0`                |
+| `ADDI t2, zero, 10`| Arithmetic | `limit = 10`             |
+| `ADD t1, t1, t0`   | Arithmetic | `sum = sum + i`          |
+| `ADDI t0, t0, 1`   | Arithmetic | `i = i + 1`              |
+| `BGE t2, t0, loop` | Branch     | `if (10 >= i) goto loop` |
+
+**Result:** `sum = 55`
 
 
